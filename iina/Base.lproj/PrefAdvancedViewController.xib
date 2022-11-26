@@ -262,6 +262,10 @@
                             </items>
                         </menu>
                     </popUpButtonCell>
+                    <connections>
+                        <binding destination="nyg-fH-Pug" name="enabled" keyPath="values.enableAdvancedSettings" id="8fr-u4-IDp"/>
+                        <binding destination="nyg-fH-Pug" name="selectedIndex" keyPath="values.logLevel" id="vgY-x5-xAF"/>
+                    </connections>
                 </popUpButton>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HJa-ED-tpm">
                     <rect key="frame" x="6" y="324" width="62" height="16"/>
@@ -279,7 +283,7 @@
                     </buttonCell>
                     <connections>
                         <action selector="showLogWindow:" target="-2" id="t9O-Wz-onW"/>
-                        <binding destination="nyg-fH-Pug" name="enabled" keyPath="values.enableLogging" id="Fqe-hN-Aly"/>
+                        <binding destination="nyg-fH-Pug" name="enabled" keyPath="values.enableAdvancedSettings" id="1fq-q2-ryK"/>
                     </connections>
                 </button>
             </subviews>
