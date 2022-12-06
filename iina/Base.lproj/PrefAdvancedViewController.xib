@@ -277,7 +277,7 @@
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TO5-NO-zKI">
                     <rect key="frame" x="351" y="314" width="148" height="32"/>
-                    <buttonCell key="cell" type="push" title="Show log window" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2yp-I9-n3m">
+                    <buttonCell key="cell" type="push" title="Show log viewer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2yp-I9-n3m">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
